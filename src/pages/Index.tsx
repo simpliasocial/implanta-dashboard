@@ -142,7 +142,7 @@ const Index = () => {
       {/* Main KPIs */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-7 gap-4 mb-8">
         <KPICard
-          title="Total de Leads Entrantes"
+          title="Total Leads Entrantes"
           value={kpis.totalLeads.toLocaleString()}
           subtitle={periodLabel}
           icon={Users}
